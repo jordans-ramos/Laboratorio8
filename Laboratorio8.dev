@@ -28,8 +28,8 @@ Folders=head,source
 IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
-CompilerSettings=0000000000000000000000000
-UnitCount=3
+CompilerSettings=0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+UnitCount=4
 
 [VersionInfo]
 Major=1
@@ -61,21 +61,31 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit2]
-FileName=head.h
+FileName=source,cpp.cpp
+CompileCpp=0
+Folder=source
+Compile=0
+Link=0
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit3]
+FileName=Ejercicio3-3Roni.cpp
 CompileCpp=1
-Folder=head
+Folder=source
 Compile=1
 Link=1
 Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit3]
-FileName=source,cpp.cpp
-CompileCpp=0
-Folder=source
-Compile=0
-Link=0
+[Unit4]
+FileName=head.h
+CompileCpp=1
+Folder=head
+Compile=1
+Link=1
 Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
