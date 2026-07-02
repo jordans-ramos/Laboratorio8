@@ -2,6 +2,8 @@
 //head
 void prueba();
 
-void Maximo(int arr[4][4], int n);
+void Maximo(int arr[10][10], int n);
 
 void ejercicio2();
+
+void mostrarMatriz(int arr[10][10], int n);
