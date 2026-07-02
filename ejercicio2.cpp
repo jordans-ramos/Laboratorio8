@@ -22,29 +22,30 @@ void ejercicio2(){
 //	};
 	mostrarMatriz(matriz,n);
 	Maximo(matriz, n);
+	Minimo(matriz, n);
+}
+
+void mostrarMatriz(int arr[10][10], int n){
+    int contador = 1;
+
+    for(int i = 0; i < n; i++){
+        for(int j = 0; j < n; j++){
+            arr[i][j] = contador++;
+            cout << arr[i][j] << " ";
+        }
+        cout << endl;
+    }
 }
 
 //void mostrarMatriz(int arr[10][10], int n){
-//    int contador = 1;
-//
-//    for(int i = 0; i < n; i++){
-//        for(int j = 0; j < n; j++){
-//            arr[i][j] = contador++;
-//            cout << arr[i][j] << " ";
-//        }
-//        cout << endl;
-//    }
+//	for(int i =0; i<n; i++){
+//		for(int j=0; j<n; j++){
+//			arr[i++][j++] +=1;
+//			cout<<arr[i][j]<<" ";
+//		}
+//		cout<<endl;
+//	}
 //}
-
-void mostrarMatriz(int arr[10][10], int n){
-	for(int i =0; i<n; i++){
-		for(int j=0; j<n; j++){
-			arr[i++][j++] +=1;
-			cout<<arr[i][j]<<" ";
-		}
-		cout<<endl;
-	}
-}
 
 void Maximo(int arr[10][10], int n){
 	int max = arr[0][0];
@@ -56,7 +57,23 @@ void Maximo(int arr[10][10], int n){
 			}
 		}
 	}
-	printf("El numero mayor es %d\n", max);
+	printf("El numero mayor del arreglo es: %d\n", max);
 }
 
-//void Minimo(int arr[4][])
+void Minimo(int arr[10][10], int n){
+
+	int min = arr[0][0];
+	for(int i=0; i<n;i++){
+		for(int j=0; j<n; j++){
+			if(arr[i][j]<=min){
+				min = arr[i][j];
+			}
+		}
+	}
+	cout<<"El numero menor del arreglo es: "<<min<<endl;
+}
+
+
+
+
+
