@@ -9,7 +9,7 @@ calcule el elemento máximo, mínimo, traza, matriz transpuesta
 y una función para comprobar si una matriz es simétrica o no.
 */
 void ejercicio2(){
-	//int matriz[10][10];
+	int matriz[10][10];
 	int n;
 	cout<<"Ingrese el tamaño para la matriz: "<<endl;
 	cin>>n;
