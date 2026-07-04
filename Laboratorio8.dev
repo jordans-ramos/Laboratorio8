@@ -71,11 +71,11 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit3]
-FileName=source,cpp.cpp
-CompileCpp=0
+FileName=ejercicio2.cpp
+CompileCpp=1
 Folder=source
-Compile=0
-Link=0
+Compile=1
+Link=1
 Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
