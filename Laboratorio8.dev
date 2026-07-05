@@ -71,8 +71,8 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit3]
-FileName=ejercicio2.cpp
-CompileCpp=1
+
+
 Folder=source
 Compile=1
 Link=1
