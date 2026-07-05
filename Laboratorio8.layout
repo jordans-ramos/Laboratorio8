@@ -1,15 +1,16 @@
 [Editors]
+<<<<<<< HEAD
 Order=1,2,0
 Focused=1
 [Editor_0]
 <<<<<<< HEAD
 CursorCol=1
-CursorRow=6
+CursorRow=2
 TopLine=1
 LeftChar=1
 [Editor_1]
-CursorCol=20
-CursorRow=19
+CursorCol=1
+CursorRow=6
 =======
 CursorCol=57
 CursorRow=17
@@ -19,15 +20,27 @@ LeftChar=1
 CursorCol=22
 CursorRow=7
 >>>>>>> ejercicio1
+=======
+Order=0,1,2
+Focused=0
+[Editor_0]
+CursorCol=4
+CursorRow=9
+TopLine=1
+LeftChar=1
+[Editor_1]
+CursorCol=1
+CursorRow=15
+>>>>>>> c07db38d54608c4aac8440ed3c4dd2e1ca1c936c
 TopLine=1
 LeftChar=1
 [Editor_2]
-CursorCol=28
-CursorRow=29
-TopLine=5
+CursorCol=1
+CursorRow=26
+TopLine=1
 LeftChar=1
 [Editor_3]
 CursorCol=1
-CursorRow=5
+CursorRow=1
 TopLine=1
 LeftChar=1
