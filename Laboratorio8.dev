@@ -28,7 +28,7 @@ Folders=head,source
 IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
-CompilerSettings=0000000000000000000000000
+CompilerSettings=0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
 UnitCount=3
 
 [VersionInfo]
@@ -60,19 +60,19 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit2]
-FileName=head.h
-CompileCpp=1
+[Unit3]
 Folder=head
 Compile=1
 Link=1
 Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
+FileName=head.h
+CompileCpp=1
 
-[Unit3]
-
-
+[Unit2]
+FileName=Ejercicio3-3.cpp
+CompileCpp=1
 Folder=source
 Compile=1
 Link=1
