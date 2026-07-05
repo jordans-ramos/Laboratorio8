@@ -1,8 +1,7 @@
 [Editors]
-Order=0,1,2,3
-Focused=3
+Order=0,1,2
+Focused=0
 [Editor_0]
-<<<<<<< HEAD
 CursorCol=4
 CursorRow=9
 TopLine=1
@@ -10,15 +9,6 @@ LeftChar=1
 [Editor_1]
 CursorCol=1
 CursorRow=15
-=======
-CursorCol=57
-CursorRow=17
-TopLine=1
-LeftChar=1
-[Editor_1]
-CursorCol=22
-CursorRow=7
->>>>>>> ejercicio1
 TopLine=1
 LeftChar=1
 [Editor_2]
@@ -28,6 +18,6 @@ TopLine=1
 LeftChar=1
 [Editor_3]
 CursorCol=1
-CursorRow=5
+CursorRow=1
 TopLine=1
 LeftChar=1
