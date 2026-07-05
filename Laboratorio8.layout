@@ -1,12 +1,12 @@
 [Editors]
 <<<<<<< HEAD
 Order=1,2,0
-Focused=1
+Focused=0
 [Editor_0]
 <<<<<<< HEAD
-CursorCol=1
-CursorRow=2
-TopLine=1
+CursorCol=22
+CursorRow=35
+TopLine=21
 LeftChar=1
 [Editor_1]
 CursorCol=1
@@ -14,7 +14,7 @@ CursorRow=6
 =======
 CursorCol=57
 CursorRow=17
-TopLine=2
+TopLine=1
 LeftChar=1
 [Editor_1]
 CursorCol=22
@@ -37,7 +37,7 @@ LeftChar=1
 [Editor_2]
 CursorCol=1
 CursorRow=26
-TopLine=1
+TopLine=4
 LeftChar=1
 [Editor_3]
 CursorCol=1
