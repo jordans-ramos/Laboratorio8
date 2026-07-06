@@ -4,8 +4,8 @@
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = main.o Ejercicio3-3.o
-LINKOBJ  = main.o Ejercicio3-3.o
+OBJ      = main.o Ejercicio3-3.o ejercicio2.o string.o ejercicio1.o
+LINKOBJ  = main.o Ejercicio3-3.o ejercicio2.o string.o ejercicio1.o
 LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
 INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
@@ -29,3 +29,12 @@ main.o: main.cpp
 
 Ejercicio3-3.o: Ejercicio3-3.cpp
 	$(CPP) -c Ejercicio3-3.cpp -o Ejercicio3-3.o $(CXXFLAGS)
+
+ejercicio2.o: ejercicio2.cpp
+	$(CPP) -c ejercicio2.cpp -o ejercicio2.o $(CXXFLAGS)
+
+string.o: string.cpp
+	$(CPP) -c string.cpp -o string.o $(CXXFLAGS)
+
+ejercicio1.o: ejercicio1.cpp
+	$(CPP) -c ejercicio1.cpp -o ejercicio1.o $(CXXFLAGS)
