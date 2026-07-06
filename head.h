@@ -6,3 +6,31 @@ int stringAEntero(const std::string& texto);
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+void caracterFrecuente();

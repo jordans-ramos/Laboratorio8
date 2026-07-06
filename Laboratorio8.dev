@@ -79,6 +79,8 @@ Link=1
 Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
+FileName=head.h
+CompileCpp=1
 
 [Unit4]
 FileName=ejercicio2.cpp
@@ -92,6 +94,8 @@ BuildCmd=
 
 [Unit5]
 FileName=ejercicio1.cpp
+[Unit2]
+FileName=Ejercicio3-3.cpp
 CompileCpp=1
 Folder=source
 Compile=1
