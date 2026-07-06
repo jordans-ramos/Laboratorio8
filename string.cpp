@@ -55,3 +55,4 @@ int stringAEntero(const string& texto) {
 
     return esNegativo ? -resultado : resultado;
 }
+
