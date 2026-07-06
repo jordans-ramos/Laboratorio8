@@ -1,11 +1,11 @@
 [Editors]
 <<<<<<< HEAD
-Order=0,1,2,3
+Order=0,1,4
 Focused=0
 [Editor_0]
 <<<<<<< HEAD
-CursorCol=1
-CursorRow=1
+CursorCol=77
+CursorRow=21
 TopLine=1
 LeftChar=1
 [Editor_1]
@@ -47,5 +47,5 @@ LeftChar=1
 [Editor_4]
 CursorCol=1
 CursorRow=1
-TopLine=1
+TopLine=16
 LeftChar=1
